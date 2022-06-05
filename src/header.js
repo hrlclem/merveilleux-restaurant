@@ -22,7 +22,7 @@ export default function headerDisplay() {
     header.className = 'header';
 
         // Logo set up
-        merveilleuxLogo.src  = 'img/logoMerveilleux.png'
+        merveilleuxLogo.src  = '../src/img/logoMerveilleux.png'
 
         header.appendChild(merveilleuxLogo);
         merveilleuxLogo.className = 'merveilleuxLogo';
@@ -36,7 +36,7 @@ export default function headerDisplay() {
         };
 
         // Signature set up
-        signatureLogo.src  = 'img/logoSignature.svg'
+        signatureLogo.src  = '../src/img/logoSignature.svg'
         header.appendChild(signatureLogo);
         signatureLogo.className = 'signatureLogo';
         signatureLogo.onclick = function() {
