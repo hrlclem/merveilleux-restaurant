@@ -22,7 +22,7 @@ export default function headerDisplay() {
     header.className = 'header';
 
         // Logo set up
-        merveilleuxLogo.src  = './src/img/logoMerveilleux.png'
+        merveilleuxLogo.src  = '../src/img/logoMerveilleux.png'
 
         header.appendChild(merveilleuxLogo);
         merveilleuxLogo.className = 'merveilleuxLogo';
